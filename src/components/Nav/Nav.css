@@ -1,0 +1,31 @@
+.nav-container{
+    background-color: #7e7e7e75;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    backdrop-filter:blur(10px) ;
+
+}
+.nav-logo{
+    margin-left: 50px;
+}
+.nav-logo img{
+    width: 150px;
+}
+.nav-items{
+    margin-right: 50px;
+}
+.nav-items a{
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.active-link{
+    color: gold;
+}
+.link{
+    color: #fff;
+}
